@@ -142,6 +142,22 @@ footer {
     }
 } 
 
+@media screen and (min-width:320px) and (max-width: 480px){
+    .wrapper {
+      width: 100%;
+      margin: auto;
+    }
+    .inputField input {
+      width: 70%;
+    }
+    .inputField button {
+      font-size: 15px;
+    }
+    footer {
+      font-size: 10px;
+    }
+  }
+
 /* @media (max-width: 600px) {
     .wrapper {
       width: 90%;
