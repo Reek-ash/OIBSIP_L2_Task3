@@ -125,7 +125,7 @@ footer {
     align-items: center;
 }
 
- /* @media screen and (max-width: 400px) {
+ @media screen and (max-width: 400px) {
     .wrapper {
         width: 90%;
     }
@@ -140,11 +140,11 @@ footer {
     .designed {
         margin-top: 10px;
     }
-}  */
+} 
 
 @media screen and (min-width:320px) and (max-width: 480px){
     .wrapper {
-      width: 100%;
+      width: 80%;
       margin: auto;
     }
     .inputField input {
@@ -158,30 +158,4 @@ footer {
     }
   }
 
-@media (max-width: 600px) {
-    .wrapper {
-      width: 90%;
-    }
-    .inputField {
-      flex-direction: column;
-    }
-  
-    input {
-      width: 100%;
-    }
-  
-    button {
-      margin-top: 15px;
-      width: 100%;
-    }
-    
-    .todoList li input[type='checkbox'] {
-      width: 30px;
-      height: 30px;
-    }
-  
-    .todoList li .text {
-      font-size: 18px;
-    }
-  
-  }
+ 
